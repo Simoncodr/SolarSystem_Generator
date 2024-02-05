@@ -5,6 +5,8 @@ precision mediump int;
 
 varying vec4 vertColor;
 
+vec3 sunDir = vec3(0, -1, 0);
+
 void main() {
   gl_FragColor = vertColor;
 }
